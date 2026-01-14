@@ -319,8 +319,6 @@ public class Project {
                 s.predecessors.add(n);
             }
         }
-
-
     }
 
     public void read_project_psplib(String instanceType, String instanceFilename) throws FileNotFoundException {
