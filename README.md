@@ -42,7 +42,7 @@ To run the program, do the following.
 
 1. Clone the repository and navigate into the project root directory:
 ```
-git clone https://github.com/derhendrik/RCPSP_Heuristics.git
+git clone https://github.com/hww-dev/RCPSP_Heuristics.git
 cd RCPSP_Heuristics
 ```
 2. Build the project using Maven:
