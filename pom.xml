@@ -46,7 +46,7 @@
     </dependencies>
 
     <build>
-        <finalName>{project.ArtifactId}</finalName>
+        <finalName>${project.artifactId}</finalName>
     </build>
 
 </project>
