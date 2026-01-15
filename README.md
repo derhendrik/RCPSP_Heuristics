@@ -38,5 +38,24 @@ The priority rules in this repository include:
 
 All dependencies are managed via Maven and can be found in the [pom.xml](pom.xml) file.
 
-To solve a specific RCPSP instance with all priority rules and both scheduling schemes, run:
+To run the program, do the following.
+
+1. Clone the repository and navigate into the project root directory:
+```
+git clone https://github.com/derhendrik/RCPSP_Heuristics.git
+cd RCPSP_Heuristics
+```
+2. Build the project using Maven:
+
+```
+mvn package
+```
+
+3. Run the program with the following command to solve ALL instances located in the `instances/` folder:
+
+```java -cp target/RCPSP_Heuristics.jar com.weber.AlgoRunner```
+
+4. Alternatively, you can specify a single instance file to solve:
+
+```java -cp target/RCPSP_Heuristics.jar com.weber.AlgoRunner instances/your_instance_file.rcp```
 
